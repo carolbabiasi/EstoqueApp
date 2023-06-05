@@ -26,8 +26,8 @@ namespace EstoqueApp.Application.Handlers.Requests
         public EstoqueRequestHandler(IMediator? mediator, IMapper? mapper, IEstoqueDomainService? estoqueDomainService)
         {
             _mediator = mediator;
-            _estoqueDomainService = estoqueDomainService;
             _mapper = mapper;
+            _estoqueDomainService = estoqueDomainService;
         }
 
         public async Task<EstoqueQuery> Handle(EstoqueCreateCommand request, CancellationToken cancellationToken)
@@ -35,8 +35,7 @@ namespace EstoqueApp.Application.Handlers.Requests
             var estoque = _mapper.Map<Estoque>(request);
             _estoqueDomainService.Add(estoque);
 
-            var estoqueQuery = _mapper.Map<EstoqueQuery>(estoque);  
-
+            var estoqueQuery = _mapper.Map<EstoqueQuery>(estoque);
             await _mediator.Publish(
                     new EstoqueNotification
                     {
@@ -50,9 +49,13 @@ namespace EstoqueApp.Application.Handlers.Requests
 
         public async Task<EstoqueQuery> Handle(EstoqueUpdateCommand request, CancellationToken cancellationToken)
         {
-            //TODO Realizar a atualização do estoque no domínio
+            var estoque = _estoqueDomainService.GetById(request.Id.Value);
+            estoque.Nome = request.Nome;
+            estoque.Descricao = request.Descricao;
 
-            var estoqueQuery = new EstoqueQuery();
+            _estoqueDomainService.Update(estoque);
+
+            var estoqueQuery = _mapper.Map<EstoqueQuery>(estoque);
             await _mediator.Publish(
                     new EstoqueNotification
                     {
@@ -66,9 +69,10 @@ namespace EstoqueApp.Application.Handlers.Requests
 
         public async Task<EstoqueQuery> Handle(EstoqueDeleteCommand request, CancellationToken cancellationToken)
         {
-            //TODO Realizar a exclusão do estoque no domínio
+            var estoque = _estoqueDomainService.GetById(request.Id.Value);
+            _estoqueDomainService.Delete(estoque);
 
-            var estoqueQuery = new EstoqueQuery();
+            var estoqueQuery = _mapper.Map<EstoqueQuery>(estoque);
             await _mediator.Publish(
                     new EstoqueNotification
                     {
@@ -81,5 +85,6 @@ namespace EstoqueApp.Application.Handlers.Requests
         }
     }
 }
+
 
 
