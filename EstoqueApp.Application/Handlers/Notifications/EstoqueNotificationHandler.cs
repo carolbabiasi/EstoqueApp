@@ -9,22 +9,31 @@ using System.Threading.Tasks;
 
 namespace EstoqueApp.Application.Handlers.Notifications
 {
-    public class EstoqueNotificationHandler : INotificationHandler<EstoqueNotification>
+    public class EstoqueNotificationHandler
+        : INotificationHandler<EstoqueNotification>
     {
-        private readonly IEstoquePersistences _estoquePersistence;
+        private readonly IEstoquePersistences? _estoquePersistence;
 
-        public EstoqueNotificationHandler(IEstoquePersistences estoquePersistence)
+        public EstoqueNotificationHandler(IEstoquePersistences? estoquePersistence)
         {
             _estoquePersistence = estoquePersistence;
         }
 
         public Task Handle(EstoqueNotification notification, CancellationToken cancellationToken)
         {
-            switch(notification.Action)
+            switch (notification.Action)
             {
                 case ActionNotification.Create:
                     _estoquePersistence.Add(notification.Estoque);
-                break;
+                    break;
+
+                case ActionNotification.Update:
+                    _estoquePersistence.Update(notification.Estoque);
+                    break;
+
+                case ActionNotification.Delete:
+                    _estoquePersistence.Delete(notification.Estoque);
+                    break;
             }
 
             return Task.CompletedTask;
