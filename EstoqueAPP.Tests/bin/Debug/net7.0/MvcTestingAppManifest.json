@@ -1,0 +1,7 @@
+{
+  "EstoqueApp.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\Coti\\EstoqueApp\\EstoqueApp.API",
+  "EstoqueApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\Coti\\EstoqueApp\\EstoqueApp.Application",
+  "EstoqueApp.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\Coti\\EstoqueApp\\EstoqueApp.Domain",
+  "EstoqueApp.Infra.Data.MongoDB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\Coti\\EstoqueApp\\EstoqueApp.Infra.Data.MongoDB",
+  "EstoqueApp.Infra.Data.SqlServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\Coti\\EstoqueApp\\EstoqueApp.Infra.Data.SqlServer"
+}
