@@ -13,6 +13,7 @@ namespace EstoqueApp.Application.Models.Queries
         public decimal? Preco { get; set; }
         public int? Quantidade { get; set; }
         public Guid? EstoqueId { get; set; }
+        public DateTime? DataHoraCriacao { get; set; }
         public EstoqueQuery? Estoque { get; set; }
     }
 }
