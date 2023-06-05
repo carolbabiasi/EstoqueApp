@@ -1,4 +1,5 @@
-﻿using EstoqueApp.Application.Notifications;
+﻿using EstoqueApp.Application.Interfaces.Persistences;
+using EstoqueApp.Application.Notifications;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,12 +9,36 @@ using System.Threading.Tasks;
 
 namespace EstoqueApp.Application.Handlers.Notifications
 {
-    internal class ProdutoNotificationHandler : INotificationHandler<ProdutoNotification>
+    public class ProdutoNotificationHandler
+        : INotificationHandler<ProdutoNotification>
     {
+        private readonly IProdutoPersinteces? _produtoPersistence;
+
+        public ProdutoNotificationHandler(IProdutoPersinteces? produtoPersistence)
+        {
+            _produtoPersistence = produtoPersistence;
+        }
+
         public Task Handle(ProdutoNotification notification, CancellationToken cancellationToken)
         {
-            //TODO Enviar para o MongoDB
-            throw new NotImplementedException();
+            switch (notification.Action)
+            {
+                case ActionNotification.Create:
+                    _produtoPersistence.Add(notification.Produto);
+                    break;
+
+                case ActionNotification.Update:
+                    _produtoPersistence.Update(notification.Produto);
+                    break;
+
+                case ActionNotification.Delete:
+                    _produtoPersistence.Delete(notification.Produto);
+                    break;
+            }
+
+            return Task.CompletedTask;
         }
     }
 }
+
+
