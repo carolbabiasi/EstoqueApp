@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EstoqueApp.API.props" />
+</Project>

@@ -1,0 +1,17 @@
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\bin\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.deps.json
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\bin\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.runtimeconfig.json
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\bin\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.dll
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\bin\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.pdb
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\bin\Debug\net7.0\EstoqueApp.Domain.dll
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\bin\Debug\net7.0\EstoqueApp.Domain.pdb
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.csproj.AssemblyReference.cache
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.AssemblyInfoInputs.cache
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.AssemblyInfo.cs
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.csproj.CoreCompileInputs.cache
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.csproj.CopyComplete
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.dll
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\refint\EstoqueApp.Infra.Data.SqlServer.dll
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.pdb
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.genruntimeconfig.cache
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.Infra.Data.SqlServer\obj\Debug\net7.0\ref\EstoqueApp.Infra.Data.SqlServer.dll
