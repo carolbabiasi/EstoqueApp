@@ -17,7 +17,18 @@ namespace EstoqueApp.Tests.Helpers
         /// Criando um objeto HTTP Client para acessar a API
         /// </summary>
         public static HttpClient CreateClient
-            => new WebApplicationFactory<Program>().CreateClient();
+        {
+            get
+            {
+                var authHelper = new AuthHelper();
+                var accessToken = authHelper.ObterTokenAcesso().Result;
+
+                var client = new WebApplicationFactory<Program>().CreateClient();
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+                return client;
+            }
+        }
 
         /// <summary>
         /// Serializar os dados de uma requisição para JSON

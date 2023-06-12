@@ -1,11 +1,13 @@
 ﻿using EstoqueApp.Application.Interfaces.Services;
 using EstoqueApp.Application.Models.Commands;
 using EstoqueApp.Application.Models.Queries;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EstoqueApp.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProdutosController : ControllerBase

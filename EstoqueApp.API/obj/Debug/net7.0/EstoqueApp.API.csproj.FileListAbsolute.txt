@@ -95,3 +95,4 @@ C:\Projetos\Coti\EstoqueApp\EstoqueApp.API\bin\Debug\net7.0\EstoqueApp.Infra.Dat
 C:\Projetos\Coti\EstoqueApp\EstoqueApp.API\bin\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.dll
 C:\Projetos\Coti\EstoqueApp\EstoqueApp.API\bin\Debug\net7.0\EstoqueApp.Infra.Data.MongoDB.pdb
 C:\Projetos\Coti\EstoqueApp\EstoqueApp.API\bin\Debug\net7.0\EstoqueApp.Infra.Data.SqlServer.pdb
+C:\Projetos\Coti\EstoqueApp\EstoqueApp.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

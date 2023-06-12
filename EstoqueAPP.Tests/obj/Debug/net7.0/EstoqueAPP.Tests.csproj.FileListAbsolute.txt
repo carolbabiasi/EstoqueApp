@@ -480,3 +480,4 @@ C:\Projetos\Coti\EstoqueApp\EstoqueAPP.Tests\obj\Debug\net7.0\refint\EstoqueAPP.
 C:\Projetos\Coti\EstoqueApp\EstoqueAPP.Tests\obj\Debug\net7.0\EstoqueAPP.Tests.pdb
 C:\Projetos\Coti\EstoqueApp\EstoqueAPP.Tests\obj\Debug\net7.0\EstoqueAPP.Tests.genruntimeconfig.cache
 C:\Projetos\Coti\EstoqueApp\EstoqueAPP.Tests\obj\Debug\net7.0\ref\EstoqueAPP.Tests.dll
+C:\Projetos\Coti\EstoqueApp\EstoqueAPP.Tests\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

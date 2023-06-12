@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OcG39aRNr9gU+Y1nC7Ah8NDAr6eOWSoBx2q/Dq7/Id+JFj3pJ4WsX3R9nTq3mlQ1hcmu5uDgKMKB02AogBUOxQ==",
+  "dgSpecHash": "43DhH595bohVo9F0bwCema/DC/fti7bRZ9XltZUZSdqkjVjEuuD97NzPciajD6j123t06p5lembf9u849diD1w==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Coti\\EstoqueApp\\EstoqueAPP.Tests\\EstoqueAPP.Tests.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\INFISCO001017\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\INFISCO001017\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\INFISCO001017\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\INFISCO001017\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
     "C:\\Users\\INFISCO001017\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\7.0.5\\microsoft.aspnetcore.mvc.testing.7.0.5.nupkg.sha512",
     "C:\\Users\\INFISCO001017\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\INFISCO001017\\.nuget\\packages\\microsoft.aspnetcore.testhost\\7.0.5\\microsoft.aspnetcore.testhost.7.0.5.nupkg.sha512",
